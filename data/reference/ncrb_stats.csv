@@ -1,0 +1,121 @@
+state,fraud_type,cases
+Andhra Pradesh,Fraud,467
+Andhra Pradesh,Cheating,407
+Andhra Pradesh,Forgery,11
+Andhra Pradesh,Data theft,3
+Andhra Pradesh,Fake Profile,5
+Andhra Pradesh,Cyber Blackmailing,17
+Bihar,Fraud,1342
+Bihar,Cheating,1168
+Bihar,Forgery,31
+Bihar,Data theft,8
+Bihar,Fake Profile,16
+Bihar,Cyber Blackmailing,47
+Chhattisgarh,Fraud,15
+Chhattisgarh,Cheating,13
+Chhattisgarh,Forgery,0
+Chhattisgarh,Data theft,0
+Chhattisgarh,Fake Profile,0
+Chhattisgarh,Cyber Blackmailing,1
+Gujarat,Fraud,58
+Gujarat,Cheating,50
+Gujarat,Forgery,1
+Gujarat,Data theft,0
+Gujarat,Fake Profile,1
+Gujarat,Cyber Blackmailing,2
+Haryana,Fraud,6
+Haryana,Cheating,5
+Haryana,Forgery,0
+Haryana,Data theft,0
+Haryana,Fake Profile,0
+Haryana,Cyber Blackmailing,0
+Himachal Pradesh,Fraud,4
+Himachal Pradesh,Cheating,3
+Himachal Pradesh,Forgery,0
+Himachal Pradesh,Data theft,0
+Himachal Pradesh,Fake Profile,0
+Himachal Pradesh,Cyber Blackmailing,0
+Jharkhand,Fraud,22
+Jharkhand,Cheating,19
+Jharkhand,Forgery,1
+Jharkhand,Data theft,0
+Jharkhand,Fake Profile,0
+Jharkhand,Cyber Blackmailing,1
+Kerala,Fraud,60
+Kerala,Cheating,52
+Kerala,Forgery,1
+Kerala,Data theft,0
+Kerala,Fake Profile,1
+Kerala,Cyber Blackmailing,2
+Madhya Pradesh,Fraud,47
+Madhya Pradesh,Cheating,41
+Madhya Pradesh,Forgery,1
+Madhya Pradesh,Data theft,0
+Madhya Pradesh,Fake Profile,1
+Madhya Pradesh,Cyber Blackmailing,2
+Maharashtra,Fraud,1066
+Maharashtra,Cheating,928
+Maharashtra,Forgery,24
+Maharashtra,Data theft,6
+Maharashtra,Fake Profile,12
+Maharashtra,Cyber Blackmailing,38
+Odisha,Fraud,700
+Odisha,Cheating,609
+Odisha,Forgery,16
+Odisha,Data theft,4
+Odisha,Fake Profile,8
+Odisha,Cyber Blackmailing,25
+Punjab,Fraud,13
+Punjab,Cheating,11
+Punjab,Forgery,0
+Punjab,Data theft,0
+Punjab,Fake Profile,0
+Punjab,Cyber Blackmailing,1
+Rajasthan,Fraud,43
+Rajasthan,Cheating,38
+Rajasthan,Forgery,1
+Rajasthan,Data theft,0
+Rajasthan,Fake Profile,0
+Rajasthan,Cyber Blackmailing,2
+Tamil Nadu,Fraud,456
+Tamil Nadu,Cheating,397
+Tamil Nadu,Forgery,10
+Tamil Nadu,Data theft,3
+Tamil Nadu,Fake Profile,5
+Tamil Nadu,Cyber Blackmailing,16
+Telangana,Fraud,5459
+Telangana,Cheating,4754
+Telangana,Forgery,125
+Telangana,Data theft,32
+Telangana,Fake Profile,63
+Telangana,Cyber Blackmailing,193
+Uttar Pradesh,Fraud,148
+Uttar Pradesh,Cheating,128
+Uttar Pradesh,Forgery,3
+Uttar Pradesh,Data theft,1
+Uttar Pradesh,Fake Profile,2
+Uttar Pradesh,Cyber Blackmailing,5
+Uttarakhand,Fraud,9
+Uttarakhand,Cheating,8
+Uttarakhand,Forgery,1
+Uttarakhand,Data theft,0
+Uttarakhand,Fake Profile,0
+Uttarakhand,Cyber Blackmailing,0
+West Bengal,Fraud,4
+West Bengal,Cheating,3
+West Bengal,Forgery,0
+West Bengal,Data theft,0
+West Bengal,Fake Profile,0
+West Bengal,Cyber Blackmailing,0
+Delhi,Fraud,84
+Delhi,Cheating,73
+Delhi,Forgery,2
+Delhi,Data theft,0
+Delhi,Fake Profile,1
+Delhi,Cyber Blackmailing,3
+Jammu and Kashmir,Fraud,1
+Jammu and Kashmir,Cheating,1
+Jammu and Kashmir,Forgery,0
+Jammu and Kashmir,Data theft,0
+Jammu and Kashmir,Fake Profile,0
+Jammu and Kashmir,Cyber Blackmailing,0

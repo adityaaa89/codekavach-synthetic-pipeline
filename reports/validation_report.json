@@ -1,0 +1,100 @@
+{
+  "dataset_sizes": {
+    "complaints": 20000,
+    "transactions": 91687,
+    "withdrawals": 22514
+  },
+  "fraud_type_calibration": {
+    "chi_square_statistic": 3.303465368747215,
+    "p_value": 0.6533111780356251,
+    "observed_proportions": {
+      "Cheating": 0.4532,
+      "Cyber Blackmailing": 0.01865,
+      "Data theft": 0.0029,
+      "Fake Profile": 0.00585,
+      "Forgery": 0.01135,
+      "Fraud": 0.50805
+    },
+    "expected_proportions": {
+      "Cheating": 0.44732110751528226,
+      "Cyber Blackmailing": 0.018235989109775516,
+      "Data theft": 0.0029280320542456463,
+      "Fake Profile": 0.005907433091899112,
+      "Forgery": 0.011712128216982585,
+      "Fraud": 0.5138953100118149
+    }
+  },
+  "state_calibration": {
+    "chi_square_statistic": 16.01779372438403,
+    "p_value": 0.6560904455138042,
+    "observed_proportions": {
+      "Andhra Pradesh": 0.04665,
+      "Bihar": 0.13335,
+      "Chhattisgarh": 0.0015,
+      "Delhi": 0.0079,
+      "Gujarat": 0.006,
+      "Haryana": 0.00065,
+      "Himachal Pradesh": 0.00045,
+      "Jammu and Kashmir": 5e-05,
+      "Jharkhand": 0.00225,
+      "Kerala": 0.0054,
+      "Madhya Pradesh": 0.0061,
+      "Maharashtra": 0.10595,
+      "Odisha": 0.06915,
+      "Punjab": 0.00115,
+      "Rajasthan": 0.0045,
+      "Tamil Nadu": 0.0483,
+      "Telangana": 0.54445,
+      "Uttar Pradesh": 0.01505,
+      "Uttarakhand": 0.0009,
+      "West Bengal": 0.00025
+    },
+    "expected_proportions": {
+      "Andhra Pradesh": 0.04674577490111471,
+      "Bihar": 0.13417578466122154,
+      "Chhattisgarh": 0.0014897005188267325,
+      "Delhi": 0.008373144295474392,
+      "Gujarat": 0.005753326141675656,
+      "Haryana": 0.000565058817486002,
+      "Himachal Pradesh": 0.0003595828838547285,
+      "Jammu and Kashmir": 0.00010273796681563672,
+      "Jharkhand": 0.0022088662865361896,
+      "Kerala": 0.00595880207530693,
+      "Madhya Pradesh": 0.004725946473519289,
+      "Maharashtra": 0.10653927158781527,
+      "Odisha": 0.06996455540144861,
+      "Punjab": 0.001284224585195459,
+      "Rajasthan": 0.004314994606256742,
+      "Tamil Nadu": 0.045564288282734886,
+      "Telangana": 0.5458468176914779,
+      "Uttar Pradesh": 0.014742898238043868,
+      "Uttarakhand": 0.0009246417013407304,
+      "West Bengal": 0.0003595828838547285
+    }
+  },
+  "amount_distribution_ks": {
+    "ks_statistic": 0.055702439024390316,
+    "p_value": 0.9987923346383915,
+    "reference_n": 41,
+    "synthetic_n": 20000,
+    "note": "With a tiny reference sample, use this as a diagnostic rather than a definitive acceptance test."
+  },
+  "withdrawal_channel_share": {
+    "BRANCH": 0.52416274318202,
+    "ATM": 0.47583725681797995
+  },
+  "withdrawal_time_bucket_share": {
+    "BankingHours": 0.52416274318202,
+    "Night": 0.21768677267478015,
+    "Evening": 0.13960202540641378,
+    "Afternoon": 0.09482988362796482,
+    "Morning": 0.023718575108821176
+  },
+  "chain_depth_share": {
+    "2": 0.10205,
+    "3": 0.70205,
+    "4": 0.14055,
+    "5": 0.04415,
+    "6": 0.0112
+  }
+}

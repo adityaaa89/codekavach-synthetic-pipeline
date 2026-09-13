@@ -1,0 +1,25 @@
+location_id,channel,bank,city,state,latitude,longitude
+ATM_MUM_001,ATM,Bank_A,Mumbai,Maharashtra,19.076,72.8777
+ATM_MUM_002,ATM,Bank_B,Mumbai,Maharashtra,19.076,72.8777
+BR_MUM_001,BRANCH,Bank_A,Mumbai,Maharashtra,19.076,72.8777
+ATM_PUN_001,ATM,Bank_A,Pune,Maharashtra,18.5204,73.8567
+BR_PUN_001,BRANCH,Bank_C,Pune,Maharashtra,18.5204,73.8567
+ATM_DEL_001,ATM,Bank_A,Delhi,Delhi,28.7041,77.1025
+ATM_DEL_002,ATM,Bank_B,Delhi,Delhi,28.7041,77.1025
+BR_DEL_001,BRANCH,Bank_C,Delhi,Delhi,28.7041,77.1025
+ATM_BLR_001,ATM,Bank_A,Bengaluru,Karnataka,12.9716,77.5946
+BR_BLR_001,BRANCH,Bank_B,Bengaluru,Karnataka,12.9716,77.5946
+ATM_HYD_001,ATM,Bank_A,Hyderabad,Telangana,17.385,78.4867
+BR_HYD_001,BRANCH,Bank_C,Hyderabad,Telangana,17.385,78.4867
+ATM_CHN_001,ATM,Bank_B,Chennai,Tamil Nadu,13.0827,80.2707
+BR_CHN_001,BRANCH,Bank_A,Chennai,Tamil Nadu,13.0827,80.2707
+ATM_KOL_001,ATM,Bank_A,Kolkata,West Bengal,22.5726,88.3639
+BR_KOL_001,BRANCH,Bank_C,Kolkata,West Bengal,22.5726,88.3639
+ATM_AHM_001,ATM,Bank_B,Ahmedabad,Gujarat,23.0225,72.5714
+BR_AHM_001,BRANCH,Bank_A,Ahmedabad,Gujarat,23.0225,72.5714
+ATM_JAI_001,ATM,Bank_A,Jaipur,Rajasthan,26.9124,75.7873
+BR_JAI_001,BRANCH,Bank_B,Jaipur,Rajasthan,26.9124,75.7873
+ATM_LKO_001,ATM,Bank_C,Lucknow,Uttar Pradesh,26.8467,80.9462
+BR_LKO_001,BRANCH,Bank_A,Lucknow,Uttar Pradesh,26.8467,80.9462
+ATM_PAT_001,ATM,Bank_B,Patna,Bihar,25.5941,85.1376
+BR_PAT_001,BRANCH,Bank_A,Patna,Bihar,25.5941,85.1376

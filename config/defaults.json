@@ -1,0 +1,50 @@
+{
+  "seed": 42,
+  "num_cases": 1000,
+  "complaints_per_day": 8000,
+  "mule_reuse_rate": 0.12,
+  "cross_region_probability": 0.08,
+  "timing_outlier_rate": 0.10,
+  "chain_depth_probs": {
+    "2": 0.10,
+    "3": 0.35,
+    "4": 0.35,
+    "5": 0.15,
+    "6": 0.05
+  },
+  "atm_time_bucket_probs": {
+    "Morning": 0.05,
+    "Afternoon": 0.20,
+    "Evening": 0.30,
+    "Night": 0.45
+  },
+  "delay_minutes_by_fraud_type": {
+    "UPI": {"distribution": "exponential", "scale": 12},
+    "Investment": {"distribution": "gamma", "shape": 2, "scale": 300},
+    "Loan": {"distribution": "gamma", "shape": 2, "scale": 60},
+    "Impersonation": {"distribution": "gamma", "shape": 2, "scale": 45},
+    "Shopping": {"distribution": "gamma", "shape": 2, "scale": 90},
+    "Other": {"distribution": "gamma", "shape": 2, "scale": 120}
+  },
+  "fallback_fraud_type_probs": {
+    "UPI": 0.30,
+    "Investment": 0.25,
+    "Loan": 0.15,
+    "Impersonation": 0.15,
+    "Shopping": 0.10,
+    "Other": 0.05
+  },
+  "entity_attributes": {
+    "banks": ["Bank_A", "Bank_B", "Bank_C", "Bank_D", "Bank_E"],
+    "account_types": ["SAVINGS", "CURRENT"],
+    "age_brackets": ["18-25", "26-35", "36-50", "51+"],
+    "balance_tiers": ["Low", "Medium", "High"]
+  },
+  "fallback_state_probs": {
+    "Maharashtra": 0.35,
+    "Delhi": 0.20,
+    "Karnataka": 0.15,
+    "Telangana": 0.15,
+    "Gujarat": 0.15
+  }
+}

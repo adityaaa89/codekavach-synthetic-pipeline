@@ -1,0 +1,141 @@
+{
+  "seed": 42,
+  "num_cases": 1000,
+  "complaints_per_day": 8000,
+  "sources": {
+    "fraud_type_probs": "data/reference/ncrb_stats.csv",
+    "state_probs": "data/reference/ncrb_stats.csv",
+    "amount_distribution": "data/reference/paysim_reference.csv",
+    "location_inventory": "data/reference/cashout_locations.csv"
+  },
+  "assumptions": {
+    "mule_reuse_rate": 0.12,
+    "cross_region_probability": 0.08,
+    "timing_outlier_rate": 0.1,
+    "chain_depth_probs": {
+      "2": 0.1,
+      "3": 0.35,
+      "4": 0.35,
+      "5": 0.15,
+      "6": 0.05
+    },
+    "atm_time_bucket_probs": {
+      "Morning": 0.05,
+      "Afternoon": 0.2,
+      "Evening": 0.3,
+      "Night": 0.45
+    },
+    "delay_minutes_by_fraud_type": {
+      "UPI": {
+        "distribution": "exponential",
+        "scale": 12
+      },
+      "Investment": {
+        "distribution": "gamma",
+        "shape": 2,
+        "scale": 300
+      },
+      "Loan": {
+        "distribution": "gamma",
+        "shape": 2,
+        "scale": 60
+      },
+      "Impersonation": {
+        "distribution": "gamma",
+        "shape": 2,
+        "scale": 45
+      },
+      "Shopping": {
+        "distribution": "gamma",
+        "shape": 2,
+        "scale": 90
+      },
+      "Other": {
+        "distribution": "gamma",
+        "shape": 2,
+        "scale": 120
+      }
+    }
+  },
+  "entity_attributes": {
+    "banks": [
+      "Bank_A",
+      "Bank_B",
+      "Bank_C",
+      "Bank_D",
+      "Bank_E"
+    ],
+    "account_types": [
+      "SAVINGS",
+      "CURRENT"
+    ],
+    "age_brackets": [
+      "18-25",
+      "26-35",
+      "36-50",
+      "51+"
+    ],
+    "balance_tiers": [
+      "Low",
+      "Medium",
+      "High"
+    ]
+  },
+  "fraud_type_probs": {
+    "Cheating": 0.44732110751528226,
+    "Cyber Blackmailing": 0.018235989109775516,
+    "Data theft": 0.0029280320542456463,
+    "Fake Profile": 0.005907433091899112,
+    "Forgery": 0.011712128216982585,
+    "Fraud": 0.5138953100118149
+  },
+  "state_probs": {
+    "Andhra Pradesh": 0.04674577490111471,
+    "Bihar": 0.13417578466122154,
+    "Chhattisgarh": 0.0014897005188267325,
+    "Delhi": 0.008373144295474392,
+    "Gujarat": 0.005753326141675656,
+    "Haryana": 0.000565058817486002,
+    "Himachal Pradesh": 0.0003595828838547285,
+    "Jammu and Kashmir": 0.00010273796681563672,
+    "Jharkhand": 0.0022088662865361896,
+    "Kerala": 0.00595880207530693,
+    "Madhya Pradesh": 0.004725946473519289,
+    "Maharashtra": 0.10653927158781527,
+    "Odisha": 0.06996455540144861,
+    "Punjab": 0.001284224585195459,
+    "Rajasthan": 0.004314994606256742,
+    "Tamil Nadu": 0.045564288282734886,
+    "Telangana": 0.5458468176914779,
+    "Uttar Pradesh": 0.014742898238043868,
+    "Uttarakhand": 0.0009246417013407304,
+    "West Bengal": 0.0003595828838547285
+  },
+  "amount_distribution": {
+    "type": "lognormal",
+    "shape": 2.0993269386490434,
+    "loc": 0.0,
+    "scale": 44689.09729118329,
+    "min": 1010.0,
+    "max": 2220000.000000001
+  },
+  "location_inventory": {
+    "rows": 24,
+    "channel_counts": {
+      "ATM": 13,
+      "BRANCH": 11
+    },
+    "states": [
+      "Bihar",
+      "Delhi",
+      "Gujarat",
+      "Karnataka",
+      "Maharashtra",
+      "Rajasthan",
+      "Tamil Nadu",
+      "Telangana",
+      "Uttar Pradesh",
+      "West Bengal"
+    ]
+  }
+}
